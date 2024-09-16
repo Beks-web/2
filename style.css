@@ -1,17 +1,17 @@
 body {
-  background: linear-gradient(978deg, black, blue);
+  background: linear-gradient(978deg, black, yellow);
 }
-.box {
+.what{
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: x-large;
   height: 100vh;
-  flex-direction: column;
+ display: flex;
+ flex-direction: column;
+ border:10px solid;
+background-color: rgb(157, 255, 0);
+height: 300px;
 
-  align-items: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 button {
@@ -19,4 +19,19 @@ button {
   width: 200px;
   height: 34px;
   border-radius: 10px;
+}
+.what{
+    position: absolute;
+}
+.box{
+   justify-content: center;
+   display: flex;
+   margin-top: 350px;
+}
+ 
+.uou button{
+    background-color: rgb(102, 255, 0);
+    width: 30px;
+    margin: 0 0 4px 300px;
+    border: none;
 }
